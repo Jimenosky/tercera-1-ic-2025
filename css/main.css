@@ -26,7 +26,7 @@ menu {
 }
 
 .menu-left {
-    padding-left: 50px;
+    padding-left: 40px;
     width:700px;
     display: flex;
     flex-direction: row;
@@ -60,22 +60,29 @@ menu {
     align-items: center;
     justify-content: flex-end;
     position: absolute;
-    bottom:512px;
+    bottom:508px;
     right: 45px;
    
 }
 
 .menu-right img {
-    height: 22px;
+    height: 20px;
     filter: brightness(1);
     transition: filter 0.3s ease;
     cursor: pointer;
-    margin: 0 10px;
+    margin: 0 8px;
    
 }
 
 .menu-right img:hover {
     filter: brightness(1.5); /* Aumenta el brillo al pasar el ratón */
+}
+
+.menu-right a {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    
 }
 
 

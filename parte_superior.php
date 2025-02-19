@@ -9,7 +9,9 @@
 
 <menu>
     <div class="menu-up">
+        <a href="">
         <img src="./img/wowhead.webp" alt="">
+        </a>
     </div>
 
     <div class="menu-down">
@@ -26,11 +28,12 @@
         </div>
 
         <div class="menu-right">
-        <img src="./img/flecha.png" alt="">
-        <img src="./img/campana.png" alt="">
-        <img src="./img/mundo.png" alt="" class="iluminar-blanco">
-        <img src="./img/sobre.png" alt="">
-            
+            <a href=""> 
+            <img src="./img/flecha.png" alt="">
+            <img src="./img/campana.png" alt="">
+            <img src="./img/mundo.png" alt="" >
+            <img src="./img/sobre.png" alt="">
+            </a>
         </div>
 
     </div>
