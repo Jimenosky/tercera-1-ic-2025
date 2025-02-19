@@ -22,10 +22,15 @@
             <a href="">Guides</a>
             <a href="">Community</a>
             <a href="">Premium</a>
+           
         </div>
 
         <div class="menu-right">
-
+        <img src="./img/flecha.png" alt="">
+        <img src="./img/campana.png" alt="">
+        <img src="./img/mundo.png" alt="" class="iluminar-blanco">
+        <img src="./img/sobre.png" alt="">
+            
         </div>
 
     </div>

@@ -27,11 +27,12 @@ menu {
 
 .menu-left {
     padding-left: 50px;
-    width: 700px;
+    width:700px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .menu-left a{
@@ -39,16 +40,45 @@ menu {
     color: #bbb;
     display: inline-block;
     font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     height: 50px;
     letter-spacing: 1px;
     white-space: nowrap;
     line-height: 50px;
     cursor: pointer;
+    
 }
 
 .menu-left a:hover{
     color: white;
 }
+
+.menu-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    bottom:512px;
+    right: 45px;
+   
+}
+
+.menu-right img {
+    height: 22px;
+    filter: brightness(1);
+    transition: filter 0.3s ease;
+    cursor: pointer;
+    margin: 0 10px;
+   
+}
+
+.menu-right img:hover {
+    filter: brightness(1.5); /* Aumenta el brillo al pasar el ratón */
+}
+
+
+
+
 
