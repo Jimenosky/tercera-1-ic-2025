@@ -28,7 +28,7 @@
         </div>
 
         <div class="menu-right">
-            <a href=""> 
+            <a href="https://www.google.com/?hl=es">
             <img src="./img/flecha.png" alt="">
             <img src="./img/campana.png" alt="">
             <img src="./img/mundo.png" alt="" >

@@ -27,12 +27,11 @@ menu {
 
 .menu-left {
     padding-left: 40px;
-    width:700px;
+    width: 700px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    
 }
 
 .menu-left a{
@@ -47,7 +46,6 @@ menu {
     white-space: nowrap;
     line-height: 50px;
     cursor: pointer;
-    
 }
 
 .menu-left a:hover{
@@ -60,9 +58,9 @@ menu {
     align-items: center;
     justify-content: flex-end;
     position: absolute;
-    bottom:508px;
+    top: 58px; /* Cambiado a top 0 */
     right: 45px;
-   
+    height: 55px; /* Ajuste para centrar verticalmente */
 }
 
 .menu-right img {
@@ -75,17 +73,63 @@ menu {
 }
 
 .menu-right img:hover {
-    filter: brightness(1.5); /* Aumenta el brillo al pasar el ratón */
+    filter: brightness(1.5);
 }
 
 .menu-right a {
     text-decoration: none;
     border: none;
     outline: none;
-    
 }
 
+.main-accordion-container{
+    background-color: beige;
+    width: 100%;
+}
 
+.accordion-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    border-top: 1px black solid;
+}
 
+.accordion-item:hover{
+    transform: scale(1.05);
+    border: 2px solid black;
+}
 
+.accordion-title {
+    width: 100%;
+    background-color: antiquewhite;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.accordion-desc {
+    display: none;
+}
+
+.accordion-title .tab-active {
+    font-size: 30px;
+    pointer-events: visible;
+}
+
+.tab-active .accordion-desc {
+    width: 100%;
+    background-color: gainsboro;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
