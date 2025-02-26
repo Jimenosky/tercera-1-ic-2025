@@ -58,9 +58,9 @@ menu {
     align-items: center;
     justify-content: flex-end;
     position: absolute;
-    top: 58px; /* Cambiado a top 0 */
+    top: 58px; 
     right: 45px;
-    height: 55px; /* Ajuste para centrar verticalmente */
+    height: 55px; 
 }
 
 .menu-right img {
