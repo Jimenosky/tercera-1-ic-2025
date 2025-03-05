@@ -15,25 +15,25 @@
     </div>
 
     <div class="menu-down">
-
-        <div class="menu-left">
-            <a href="">News</a>
-            <a href="">Discord Webhook</a>
-            <a href="">Database</a>
-            <a href="">Tools</a>
-            <a href="">Guides</a>
-            <a href="">Community</a>
-            <a href="">Premium</a>
-           
+        <div class="menu-container">
+            <div class="menu-left">     
+                <a href="">News</a>     
+                <a href="">Discord Webhook</a>      
+                <a href="">Database</a>     
+                <a href="">Tools</a>        
+                <a href="">Guides</a>       
+                <a href="">Community</a>        
+                <a href="">Premium</a>      
+            </div>    
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>  
         </div>
-
         <div class="menu-right">
-            <a href="https://www.google.com/?hl=es">
-            <img src="./img/flecha.png" alt="">
-            <img src="./img/campana.png" alt="">
-            <img src="./img/mundo.png" alt="" >
-            <img src="./img/sobre.png" alt="">
-            </a>
+            
+            <a href="">Login</a>
         </div>
 
     </div>
