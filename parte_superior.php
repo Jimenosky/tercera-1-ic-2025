@@ -2,6 +2,7 @@
 <html lang="Spanish"> 
 
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="utf-8">
     <meta name="Proyecto Tercera" content="Proyecto Tercera">
     <link rel="stylesheet" href="./css/main.css">

@@ -214,6 +214,12 @@ menu {
     transform: scale(1.01) translateX(2px) translateY(-2px);
 }
 
+@media screen and (max-width: 400px) {
+    body {
+        display: none;
+    }
+}
+
 @media (max-width: 1000px) {
 
     .menu-container{
@@ -274,3 +280,4 @@ menu {
         color: white;
     }
 }
+
